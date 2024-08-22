@@ -1,10 +1,7 @@
-package com.demo.demo66.repo;
+package com.demo.demo66.core.Infrastructure.repo;
 
-import com.demo.demo66.Entity.Product;
-import com.demo.demo66.Entity.User;
+import com.demo.demo66.core.domain.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
-
-import java.util.List;
 
 public interface ProductRepository extends JpaRepository<Product, Long> {
 }
